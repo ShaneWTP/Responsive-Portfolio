@@ -43,7 +43,7 @@
   }
   
   #masthead {
-    position: fixed;
+    position: static;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -207,7 +207,9 @@
       color: #999;
       text-decoration: none;
       border-left:none;
-      border-top: 1px solid #efefef; 
+      border-top: 1px solid #efefef;
+      position: relative;
+      right: 20px;
     }
     nav a:first-child {
       border-top: 0 none;   
