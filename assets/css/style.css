@@ -183,6 +183,10 @@ ul.topnav li.right {
     .main-nav, ul.topnav li, .content-container, .footer {
         float: none;
     }
+    .name {
+        padding: 8px 12px;
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 641px; max-width: 768px; ) {
