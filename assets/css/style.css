@@ -180,12 +180,15 @@ ul.topnav li.right {
 }
 
 @media screen and (max-width: 640px) {
-    .main-nav, ul.topnav li, .content-container, .footer {
+    .main-nav, ul.topnav li, {
         float: none;
     }
     .name {
         padding: 8px 12px;
         font-size: 20px;
+    }
+    .content-container {
+        width: 100vw;
     }
 }
 
