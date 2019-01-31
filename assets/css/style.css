@@ -106,7 +106,8 @@
   }
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 30px;
+    padding-bottom: 70px;
     min-height: calc(100vh - 70px);
   }
   
@@ -200,7 +201,8 @@
 
   @media screen and (max-width: 640px) {
     #logo {
-      font-size: 15px;
+      width: 200px;
+      font-size: 20px;
     }
     nav a {
       display:block;
