@@ -115,7 +115,7 @@
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0px 0px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
   }
@@ -199,6 +199,9 @@
   }
 
   @media screen and (max-width: 640px) {
+    #logo {
+      font-size: 15px;
+    }
     nav a {
       display:block;
       padding-top: 1px;
